@@ -1,0 +1,32 @@
+// vendor
+@import 'vendor/normalize.scss';
+
+// базовые подключения
+@import 'fonts';
+@import 'vars';
+@import "settings";
+
+// подключения компонентов страницы
+@import 'components/header';
+@import 'components/footer';
+
+
+body {
+  background-color: rgb(244, 133, 209);
+}
+
+h1 {
+  background-image: url("../assets/img/webpack-logo.png");
+  background-size: cover;
+  color: rgb(243, 243, 243);
+  text-align: center;
+  font-size: 35px;
+}
+
+.logo {
+  background-image: url("../assets/img/webpack-logo.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
